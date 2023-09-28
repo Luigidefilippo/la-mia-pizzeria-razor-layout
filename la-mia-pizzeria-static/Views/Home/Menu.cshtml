@@ -16,6 +16,35 @@
 <body>
 	<!-- header section -->
 	@Html.Partial("_Sidebar")
-
+    <div class="container mt-5">
+        <h1>Menu delle Pizze</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Descrizione</th>
+                    <th>Foto</th>
+                    <th>Prezzo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Riga 1 - Pizza 1 -->
+                <tr>
+                    <td>Pizza Margherita</td>
+                    <td>Una pizza classica con pomodoro, mozzarella e basilico fresco.</td>
+                    <td><img src="~/img/PANICPIZZA (1).png" alt="Pizza Margherita" width="100"></td>
+                    <td>$10.99</td>
+                </tr>
+                <!-- Riga 2 - Pizza 2 -->
+                <tr>
+                    <td>Pizza Pepperoni</td>
+                    <td>Una pizza abbondante con peperoni e formaggio fuso.</td>
+                    <td><img src="~/img/PANICPIZZA (4).png" alt="Pizza Pepperoni" width="100"></td>
+                    <td>$12.99</td>
+                </tr>
+                <!-- Aggiungi altre righe per altre pizze -->
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
